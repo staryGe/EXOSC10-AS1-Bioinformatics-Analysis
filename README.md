@@ -94,7 +94,7 @@ Create an R Project in the root directory and execute the 4 scripts in sequence 
 3. `03_GO_enrichment.R`
 4. `04_KEGG_and_pathview.R`
 
-## 🛠️ Technical Challenges & Troubleshooting
+## Technical Challenges & Troubleshooting
 
 During the pipeline implementation, key data formatting, visualization, and API connection challenges were identified and addressed:
 
