@@ -104,8 +104,6 @@ install.packages(c("tidyverse", "readxl"))
   stopifnot(all(raw_df[, -1] %% 1 == 0))
   mode(counts_matrix) <- "integer"
 
-
-
 ### 2. 火山图基因标签遮挡与信息可视化解耦
 
 - **遇到问题**：尝试在单张火山图中直接标记 Top 差异基因的文本标签（`ggrepel`）时，标签容易遮挡重要的表达数据点，且单图承载信息过载，阅读体验不佳。
